@@ -8,12 +8,5 @@ module.exports = {
     'at-rule-no-unknown': null,
     'scss/at-rule-no-unknown': true,
     'function-calc-no-unspaced-operator': true // calc 空白間距
-  },
-  ignoreFiles: [
-    '.vscode/**',
-    'dist/**',
-    'node_modules/**',
-    '**/*.js',
-    '**/*.ts'
-  ]
+  }
 }
