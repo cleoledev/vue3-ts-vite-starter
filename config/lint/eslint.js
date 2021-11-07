@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    node: true
+    node: true,
+    'vue/setup-compiler-macros': true
   },
   extends: [
     'plugin:vue/vue3-recommended',
@@ -19,5 +20,10 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    'import/no-unresolved': 'off',
+    'import/no-extraneous-dependencies': 'off',
+    'import/extensions': 'off',
+    'global-require': 'off',
+    'vue/script-setup-uses-vars': 'error'
   }
 }
