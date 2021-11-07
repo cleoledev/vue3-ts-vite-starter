@@ -7,8 +7,18 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "eslint.validate": ["javascript", "vue", "typescript"],
   "editor.codeActionsOnSave": {
+    "source.fixAll": true,
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
   },
-  "stylelint.enable": true
+  "stylelint.enable": true,
+  "stylelint.useLocal": true,
+  "stylelint.autoFixOnSave": true,
+  "stylelint.validate": ["css", "scss"],
+  "vetur.validation.script": false,
+  "vetur.validation.template": false,
+  "vetur.validation.style": false,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
