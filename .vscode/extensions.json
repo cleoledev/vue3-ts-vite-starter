@@ -7,7 +7,6 @@
 	  "dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode",
 		"teamchilla.blueprint",
-		"hex-ci.stylelint-plus",
 		"christian-kohler.path-intellisense"
   ]
 }
